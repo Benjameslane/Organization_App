@@ -6,10 +6,13 @@
     border-style: double;
    
 }
-.image-container {
+
+   .grocery-container{
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically if the container has a specified height */
-    height: 100vh; /* Example height: 100% of the viewport height */
-}
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+
+    }
+    
 
