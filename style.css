@@ -15,14 +15,75 @@
  .grocery-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #48a46d, #95c0ff );
+    color: black;
+    padding-top: 1%;
+    padding-left: 10%;
+    
+  
+    
 }
+.grocery-container form{
+    color: #333;
+    font-size: 30px;
+}
+.grocery-container input[type="text"]{
+    background-color: bisque;
+}
+.grocery-container #addNeed{
+    background-color: bisque;
+    color: black;
+}
+
+.grocery-container #addHave{
+    background-color: bisque;
+    color: black;
+    
+}
+.grocery-container h1{
+    color: black;
+    font-size: 50px;
+}
+.grocery-container h2{
+    color: black;
+    font-size: 25px;
+}
+.grocery-container .list{
+    color: black;
+    background-color: bisque;
+    font-size: 22px;
+    border: 1.3px solid #dededd;
+    padding: 0;
+    width: 300px;
+    text-align: center;
+}
+.grocery-container .list li{
+    list-style: none;
+    background-color: bisque;
+    border-bottom: 1.3px dotted #ccc;
+    text-indent: 25px;
+    height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+    color: black;
+}
+.grocery-container .list li a{
+    float: right;
+    text-decoration: none;
+    color: red;
+}
+
+
 
 .diary-container{
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(135deg, #cf9aff, #95c0ff );
-    color: white;
+    color: black;
     padding-top: 4%;
     padding-left: 10%;
 }
@@ -33,6 +94,7 @@
     font-weight: 600;
 }
 .diary-container img{
+   
     width: 60px;
 }
 .diary-container button img{
@@ -74,6 +136,44 @@
 
 
 }
+.grocery-list-container {
+    background: linear-gradient(135deg, rgba(72, 164, 109, 0.9), rgba(149, 192, 255, 0.9));
+    padding: 20px;
+    border-radius: 8px; /* Gives the container rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+    max-width: 400px; /* Adjust based on your design needs */
+    margin: 20px auto; /* Centers the list container */
+    
+  }
+  
+  .grocery-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .grocery-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.5); /* Gives a slight transparency to items */
+    margin-bottom: 4px; /* Adds space between items */
+    border-radius: 4px; /* Rounds the corners of each item */
+  }
+  
+  .grocery-list li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  .todo-container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #635cc0, #95c0ff );
+    color: black;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+  
+  
 
     
 
