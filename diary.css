@@ -1,0 +1,71 @@
+.navbar{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    border-style: double;
+   
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+.diary-container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #cf9aff, #95c0ff );
+    color: black;
+    padding-top: 4%;
+    padding-left: 10%;
+    
+}
+.diary-container h1{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.diary-container img{
+   
+    width: 60px;
+}
+.diary-container button img{
+    width: 25px;
+    margin-right: 8px;
+}
+.diary-container button{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#9418fd, #571094);
+    color: white;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+    color: #333;
+    
+}
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+
+
+}

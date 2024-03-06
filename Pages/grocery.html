@@ -1,54 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
-    <title>Grocery List</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="shortcut icon" type="image/png" href="../images/groceries.png" />
+  <link rel="stylesheet" href="../grocery.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Grocery List</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo"><a href="#">Project Name</a></div>
-      
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./grocery.html">Grocery</a></li>
-            <li><a href="./todo.html">To-Do</a></li>
-            <li><a href="./diary.html">Diary</a></li>
-            <li><a href="./water.html">Water Intake</a></li>
-        
-        <div class="login">
-            <button>Login</button>
-        </div>
-        <div class="signup">
-            <button>Sign Up</button>
-        </div>
-    </nav>
-    
-    <div class="grocery-container">
-    <h1>Grocery List</h1>
-    <form action="add" method="get">
-        <label for="">Add Item</label>
-        <input type="text" name="item">
-        <input id="addNeed" type="submit" value="Need">
-        <input id="addHave" type="submit" value="Have">
-    </form>
-    <h2>Need:</h2>
-    <ul class="list">
-        <li><input type="checkbox" name="item">Milk <a href="#">&#10006;</a></li>
-        <li><input type="checkbox" name="item">Egg <a href="#">&#10006;</a></li>
-        <li><input type="checkbox" name="item">Chicken <a href="#">&#10006;</a></li>
-        <li><input type="checkbox" name="item">Potato <a href="#">&#10006;</a></li>
-    </ul>
-    <h2>Have:</h2>
-    <ul class="list">
-        <li><input type="checkbox" name="item" checked>Cream <a href="#">&#10006;</a></li>
-        <li><input type="checkbox" name="item" checked>Cheese<a href="#">&#10006;</a></li>
-        <li><input type="checkbox" name="item" checked>Mango <a href="#">&#10006;</a></li>
-        <li><input type="checkbox" name="item" checked>Steak <a href="#">&#10006;</a></li>
-    </ul>
-    </div>
-    
-    <script src="grocery.js"></script>
+  <nav class="navbar">
+    <div class="logo"><a href="#">Project Name</a></div>
   
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./grocery.html">Grocery</a></li>
+        <li><a href="./todo.html">To-Do</a></li>
+        <li><a href="./diary.html">Diary</a></li>
+        <li><a href="./water.html">Water Intake</a></li>
+    
+    <div class="login">
+        <button>Login</button>
+    </div>
+    <div class="signup">
+        <button>Sign Up</button>
+    </div>
+</nav>
+  <main>
+    <div class="container">
+      <div class="notebook">
+        <div class="title">
+          <h1>Grocery List</h1>
+        </div>
+        <div class="input-container">
+          <i class="fa-solid fa-eraser" id="eraser"></i>
+          <input type="text" id="userInput">
+        </div>
+        <div id="groceryItems"></div>
+      </div>
+    </div>
+  </main>
+  
+  
+  <script src="../grocery.js"></script>
 </body>
 </html>

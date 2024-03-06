@@ -1,0 +1,53 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #7f7fd5, #86a8e7, #91eae4);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; /* Change layout to column */
+    align-items: center;
+}
+
+.container {
+    width: 360px;
+}
+
+#inputField {
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.to-dos {
+    margin-top: 25px;
+}
+.navbar{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    border-style: double;
+    width: 100%;
+   
+}
